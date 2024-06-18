@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projecte.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&family=Roboto:wght@300;900&display=swap" rel="stylesheet">
+
+    <title>PROJECTE</title>
+</head>
+<body>
+    <!-- FORMULARI REGISTRE -->
+    <div id="capsa1">
+        <div id="formulariRegistre">
+            <h1>Registre: </h1>
+            <form>
+                <input id="usuari" type="text" placeholder="Usuari" maxlength="8">
+                <input id="contra" type="password" placeholder="Contrasenya" maxlength="4">
+            </form>
+            <button id="registrar" type="submit">Registrar-se</button>
+        </div>
+    </div>
+    
+    <!-- INICI SESSIÓ -->
+
+    <div id="capsa2">
+        <div id="formulariInici">
+            <h1>Inici de sessió: </h1>
+            <form>
+                <input id="usuariInici" type="text" placeholder="Usuari" autocomplete="off" maxlength="8">
+                <input id="contraInici" type="password" placeholder="Contrasenya" maxlength="4">
+            </form>
+            <button id="iniciar" type="submit">Iniciar sessió</button>
+        </div>
+    </div>
+
+    <!-- CALCULADORA -->
+    <div id="capsa3">
+        <div id="calculadora">
+            <input id="title" type="text" value="" autocomplete="off">
+            
+            <div class="contenedor">
+                <button class="botonSuperior">⊞</button>
+                <button class="botonSuperior">⇐</button>
+                <button class="botonSuperior">CE</button>
+                <button class="botonSuperior">OFF</button>
+            </div>
+    
+            <div class="contenedor">
+                <button class="boton">1</button>
+                <button class="boton">2</button>
+                <button class="boton">3</button>
+                <button class="operador">+</button>
+            </div>
+            
+            <div class="contenedor">
+                <button class="boton">4</button>
+                <button class="boton">5</button>
+                <button class="boton">6</button>
+                <button class="operador">-</button>
+            </div>
+    
+            <div class="contenedor">
+                <button class="boton">7</button>
+                <button class="boton">8</button>
+                <button class="boton">9</button>
+                <button class="operador">×</button>
+            </div>
+            
+            <div class="contenedor">
+                <button class="boton">0</button>
+                <button class="boton">.</button>
+                <button id="resultat">=</button>
+                <button class="operador">/</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- TARGETES -->
+    <div id="capsa4">
+        <div id="targetes">
+            <div class="targeta">
+                <img src="https://office-lernen.com/wp-content/media/rss-2.png">
+                <h1>Què és RSS?</h1>
+                <p>Es tracta d'un tipus de format de dades que s'utilitza principalment per a difondre contingut als subscriptors d'un lloc web.</p>
+            </div>
+    
+            <div class="targeta">
+                <img src="https://pixel.cuboup.com/wp-content/uploads/edd/2022/06/Engrenagens-Configuracao.jpg">
+                <h1>Per a què s’utilitza RSS?</h1>
+                <p>L'RSS permet distribuir contingut sense necessitat d'utilitzar un navegador web mitjançant l'ús d'un software dissenyat per a llegir els continguts RSS.</p>
+            </div>
+    
+            <div class="targeta">
+                <img src="https://static.vecteezy.com/system/resources/previews/000/376/227/original/businessman-thinking-vector.jpg">
+                <h1>Com saber si una pàgina utilitza RSS?</h1>
+                <p>Per a comprovar si una pàgina utilitza RSS, només haurem de fer clic dret sobre l'adreça de la web i seleccionar l'opció de Codi font.</p>
+                <p>Posteriorment, dins de de la finestra que s'obrirà haurem de buscar la paraula "rss" mitjançant la comanda Ctrl + F o Command + F.</p>
+                <p>Si la pàgina disposa d'RSS, trobarem el feed entre cometes després d'un "href=".</p>
+            </div>
+    
+            <div class="targeta">
+                <img src="https://xquery.typepad.com/.a/6a00d8341cc2b053ef00e554e152af8833-600wi">
+                <h1>Què és xQuery?</h1>
+                <p>Es tracta d'un llenguatge de consulta que permet extreure informació d'una base de dades o documents XML.</p>
+                <p>xQuery es basa en el llenguatge xPath per a l'accés als nodes XML.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="capsa5">
+        <div class="infoUsuari">
+            <h1 id="infoNom" class="camp"></h1>
+            <button id="historial">☰</button>
+            <button id="tornar">⮌</button>
+        </div>
+    </div>
+
+    <div id="capsa6">
+        <div class="lista">
+            <h1 id="info">Historial:</h1>
+            <div id="contenido"></div>
+        </div>
+    </div>
+    
+    <script src="projecte.js"></script>
+</body>
+</html>

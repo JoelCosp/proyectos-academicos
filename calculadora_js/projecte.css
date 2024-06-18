@@ -1,0 +1,254 @@
+body{
+    margin: 12.5% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-- FORMULARI REGISTRE I INICI --*/
+
+#formulariRegistre, #formulariInici{
+    background-color: white;
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    border-radius: 5px;
+    padding: 67px 0px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+ .formulariRegistre form{
+    width: auto;
+    margin-left: 30px;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0 0 10px 0;
+    color: #393e46;
+}
+
+form{
+    width:min-content
+}
+
+input::placeholder{
+    color: #8f8f8f;
+}
+
+#usuari, #contra, #usuariInici, #contraInici{
+    border: 0;
+    border-bottom: 1px solid #c24d2c;
+    height: 40px;
+} 
+
+#usuari, #contra, #usuariInici, #contraInici, #title:focus{
+    outline: none;
+}
+
+#registrar, #iniciar{
+    border: 1px solid #c24d2c;
+    border-radius: 5px;
+    width: 165px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: white;
+    color: #c24d2c;
+}
+
+#registrar:hover, #iniciar:hover{
+    background-color: #c24d2c;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/*-- CALCULADORA --*/
+
+#calculadora{
+    width: 250px;
+    background-color: #393e46;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    padding: 20px 0;
+    border-radius: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+#calculadora #title{
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    border: 0;
+    background-color: #393e46;
+    color: white;
+    font-weight: 600;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 7px;
+}
+
+#calculadora button{
+    border-radius: 50%;
+    border: 0px;
+    width: 45px;
+    height: 45px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor .boton{
+    color: #393e46;
+}
+
+.operador{
+    background-color: #ea9c1b;
+    color: white;
+}
+
+.botonSuperior:hover, .boton:hover, .operador:hover, #resultat:hover{
+    cursor: pointer;
+}
+
+/*-- TARGETES --*/
+
+#targetes{
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+}
+
+.targeta{
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 5px;
+    width: 225px;
+    padding: 13px;
+    height: 150px;
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+.targeta:hover{
+    transform: scale(1.05);
+    transition: 0.4s ease-in-out;
+    height: auto;
+    cursor: pointer;
+}
+
+img{
+    width: 225px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 11px;
+}
+
+.targeta h1{
+    font-size: 20px;
+    padding: 0;
+    margin-bottom: 11px;
+}
+
+.targeta p{
+    margin: 0;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+
+/*-- DISPLAYS --*/
+
+#capsa2, #capsa3, #capsa4, #capsa5, #capsa6{
+    display: none;
+} 
+
+/*-- INFORMACIO USUARI --*/
+
+#capsa6{
+    overflow: scroll;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+#capsa6::-webkit-scrollbar{
+    display: none;
+}
+
+.infoUsuari{
+    display: flex;
+    align-items: center;
+    margin: 60px 0 0 0;
+    background-color: white;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    border-radius: 5px;
+    padding: 10px;
+    height: auto;
+}
+
+.camp{
+    border: 0;
+    border-bottom: 1px solid #c24d2c;
+    height: 40px;
+    outline: none;
+    color: #8f8f8f;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding: 0;
+    height: 28px;
+}
+
+/*-- BOTO HISTORIAL --*/
+
+#historial, #tornar{
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #c24d2c;
+    border-radius: 5px;
+    background-color: white;
+    color: #c24d2c;
+    font-size: 20px;
+}
+
+#historial:hover, #tornar:hover{
+    background-color: #c24d2c;
+    color: white;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+/*-- HISTORIAL --*/
+
+.lista{
+    height: 200px;
+    width: auto;
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 20px;
+}
+
+.lista h1{
+    text-align: center;
+}
+
+#contenido p{
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin: 5px 0;
+    text-align: center;
+}
+
