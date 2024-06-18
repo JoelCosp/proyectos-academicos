@@ -1,0 +1,10 @@
+.tituloTabla{
+    font-size: 18px;
+    text-align: center;
+}
+
+.btnsAcciones{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

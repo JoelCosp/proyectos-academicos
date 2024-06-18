@@ -1,0 +1,110 @@
+article{
+    max-width: 400px;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.qr{
+    max-width: 250px;
+}
+
+.qr img{
+    width: 100%;
+}
+
+.articuloQr h1, .articuloQr h2{
+    text-align: center;
+    margin: 8px 0;
+}
+
+.articuloQr h1{
+    font-size: 30px;
+}
+
+.articuloQr h2{
+    font-size: 20px;
+}
+
+#btnDejarOpinion{
+    border-radius: 0;
+}
+
+.botones a{
+    text-decoration: none;
+}
+
+.botones button:nth-child(1){
+    border: solid 2px black;
+    background-color: white;
+    color: black;
+}
+
+.botones button:nth-child(1):hover{
+    border: solid 2px #2592a9;
+    background-color: #2592a9;
+    color: white;
+}
+
+.botones button{
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border: none;
+    height: 38px;
+    padding: 8px 20px;
+    border: solid 2px black;
+}
+
+.botones button:hover{
+    background-color: #2592a9;
+    color: white;
+    border: solid 2px #2592a9;
+}
+
+#enlaceReviews{
+    text-decoration: none;
+    color: #777777;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+#enlaceReviews:hover{
+    color: black;
+    cursor: pointer;
+}
+
+/*--- ESTILOS INPUT RESEÑA ---*/
+
+.articuloQr form{
+    width: 100%;
+}
+
+input[type="text"]{
+    width: 100%;
+}
+
+/*--- ESTILOS MODAL ---*/
+
+.infoUsuario img{
+    max-width: 30px;
+}
+
+.infoUsuario h3{
+    margin: 0;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+#estrellasSeleccionar img{
+    width: 30px;
+    max-width: auto;
+}
+
+#estrellasSeleccionar img:hover{
+    cursor: pointer;
+}
+
+textarea{
+    border: solid 1px black;
+}

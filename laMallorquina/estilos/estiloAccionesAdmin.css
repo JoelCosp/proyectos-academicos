@@ -1,0 +1,41 @@
+h1{
+    font-size: 18px;
+    text-align: center;
+    margin: 90px 0 50px 0;
+}
+
+/*---ESTILOS COMUNES---*/
+
+.contenedor{
+    max-width: 426px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+}
+
+input[type="text"]{
+    border: none;
+    border-bottom: solid 1px #b0b0b0;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 16px;
+    padding: 8px 20px;
+}
+
+input[type="submit"]:hover{
+    background-color: #2592a9;
+}

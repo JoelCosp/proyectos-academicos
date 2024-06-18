@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'brandonRegular';
+    src: url('C:/xampp/htdocs/laMallorquina/fuentes/BrandonGrotesqueCond-Regular.ttf') format('truetype');
+}
+
+body{
+    font-family: 'brandonRegular', sans-serif !important;
+}
+
+li a{
+    color: #777777;
+    text-decoration: none;
+}
+
+/*---PROPAGANDA SUPERIOR---*/
+.propaganda p{
+    padding: 4px 0 6px 0;
+    text-align: center;
+    background-color: #ebe8e3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    font-size: 81% !important;
+}
+
+/*---LOGO MALLORQUINA---*/
+
+.imgLogo{
+    max-width: 225px;
+}
+
+.filaMenuInfo{
+    padding: 15px 16px 7px 16px;
+}
+
+.infoIzquierda, .infoDerecha{
+    padding-top: 10px !important;
+}
+
+.lista{
+    list-style: none;
+    font-size: 11px;
+    padding: 0;
+    color: #777777;
+}
+
+
+li{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+.filaMenuInfo .primera:first-child li{
+    border-right: solid 1px #D9D9D9;
+}
+
+.lista li:first-child{
+    padding: 5px 10px;
+    border-right: solid 1px #D9D9D9;
+}
+
+#imgLogoPagina{
+    max-width: 225px;
+}
+
+#linkCarrito{
+    text-decoration: none;
+    color: #777777;
+}
+
+.buscador{
+    border-bottom: solid 1px #D9D9D9;
+}
+
+input[type="search"]::placeholder{
+    font-size: 11px;
+    font-weight: 700;
+    text-align: left;
+    color: #777777;
+}
+
+.buscador button{
+    border: none;
+    background-color: white;
+    border-bottom: solid 1px #D9D9D9;
+}
+
+#sinBordeDerecho, #sinBordeIzquierdo{
+    border: none;
+}
+
+.iconoAccion{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border: 0;
+}
+
+.iconoAccion:nth-child(3){
+    padding-right: 10px;
+}
+
+.iconoAccion:nth-child(5){
+    border: 0;
+}
+
+/*---NAV INFERIOR---*/
+
+.nav{
+    border-top: dashed 1px black;
+    border-bottom: dashed 1px black;
+    padding: 0;
+}
+
+.nav-item{
+    padding: 0;
+}
+
+.nav .nav-item a{
+    font-size: 87%;
+    color: #777777;
+}
+
+#desaparecer ul li a:hover{
+    color: #000000;
+}
+
+/*---PARRAFO CANTIDAD CARRITO---*/
+
+.packCarrito{
+    position: relative;
+}
+
+.imgLinks{
+    max-width: 28px;
+}
+
+.packCarrito p{
+    min-width: 15px;
+    min-height: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+/*---MEDIA QUERY PARA LOS MENÚS---*/    
+@media screen and (max-width: 800px) {
+    #desaparecer{
+        display: none;
+    }
+
+    #navbarScroll ul{
+        padding-left: 5px;
+    }
+
+    li{
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #movil{
+        display: none;
+    }
+}

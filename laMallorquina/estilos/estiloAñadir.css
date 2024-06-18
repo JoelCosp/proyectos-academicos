@@ -1,0 +1,32 @@
+h1{
+    font-size: 18px;
+    text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="text"]{
+    max-width: 430px;
+    border: none;
+    border-bottom: solid 1px #b0b0b0;
+    padding: 5px;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 8px 20px;
+    max-width: 120px;
+}

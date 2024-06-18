@@ -1,0 +1,5 @@
+.notie-container {
+    position: fixed !important;
+    top: 0;
+    z-index: 99999999999999999999 !important;
+}

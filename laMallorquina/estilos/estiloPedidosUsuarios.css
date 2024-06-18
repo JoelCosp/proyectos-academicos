@@ -1,0 +1,60 @@
+section:first-of-type{
+    margin: 0 37px 20px 37px;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+    padding: 16px;
+}
+
+.titulo{
+    font-size: 13px;
+    margin: 0 37px 0 37px;
+}
+
+.subtitulo{
+    font-size: 18px;
+    margin: 15px 37px 15px 37px;
+    font-weight: 700;
+}
+
+.sinPedidos{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(255,154,82,.3);
+    border: solid 1px #ff9a52;
+    color: #232323;
+    padding: 12px 20px;
+    margin: 0 0 16px 0;
+}
+
+.sinPedidos img{
+    max-width: 27px;
+    padding: 0 7px 0 0;
+}
+
+.sinPedidos p{
+    font-size: 13px;
+    color: #232323;
+    margin: 0;
+}
+
+.seccionGeneral h6{
+    font-size: 15px;
+    color: #7A7A7A;   
+    font-weight: 700; 
+    padding: 0;
+    margin: 0;
+}
+
+.seccionLinks{
+    box-shadow: none;
+    margin: 0 37px 20px 37px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seccionLinks a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    width: auto;
+}

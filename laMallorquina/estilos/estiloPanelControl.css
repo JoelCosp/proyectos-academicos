@@ -1,0 +1,39 @@
+section{
+    margin: 0 37px 20px 37px;
+}
+
+#titulo{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.seccionPanel{
+    padding: 16px 0;
+    box-shadow: 2px 2px 8px 0 rgba(0,0,0,.2);
+}
+
+.seccionPanel img{
+    max-height: 50px;
+}
+
+.seccionPanel a{
+    text-decoration: none;
+}
+
+.seccionPanel p{
+    margin: 0;
+    color: #777777;
+    font-weight: 700;
+}
+
+.seccionPanel p:hover{
+    color: #000000;
+    cursor: pointer;
+}
+
+.cierreSesion{
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+}

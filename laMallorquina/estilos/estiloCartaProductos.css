@@ -1,0 +1,160 @@
+/*---ESTILO INPUT SESION HEADER---*/
+#headerInput{
+    border: none;
+    background-color: transparent;
+}
+
+/*---TARJETAS PRODUCTOS---*/
+
+.tarjeta{
+    padding-right: 0;
+}
+
+.tarjeta:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.tarjeta p:nth-child(2){
+    margin: 20px 0 0 0;
+}
+
+.tarjeta p:nth-child(3){
+    margin-bottom: 20px;
+}
+
+p{
+    text-align: center;
+}
+
+h1{
+    font-size: 162% !important;
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.imgProducto{
+    width: 100%;
+}
+
+.tarjeta img:hover{
+    cursor: pointer;
+}
+
+.tarjeta p:nth-child(3){
+    font-size: 12px !important;
+    color: #F69100;
+}
+
+.acciones{
+    background-color: black;
+}
+
+.accion{
+    max-height: 30px;
+}
+
+#carro{
+    background-image: url('../img/logoCarritoPlato.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.accion img{
+    max-width: 15px;
+}
+
+#btnLupa, #btnCesta{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background-color: white;
+    color: transparent;
+    background-image: url("../img/lupaProducto.svg");
+    background-repeat: no-repeat;
+    background-size: 23px 23px;
+    background-position: center;
+    padding: 0;
+}
+
+#btnCesta{
+    background-image: url("../img/logoCarritoPlato.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.tarjeta:hover #btnLupa, .tarjeta:hover #btnCesta{
+    background-color: black;
+}
+
+.tarjeta:hover #btnLupa:hover, .tarjeta:hover #btnCesta:hover{
+    background-color: #2592A9;
+    cursor: pointer;
+}
+
+/*--- ESTILOS PARTE DE JS ---*/
+
+#botonFiltrarProductos{
+    position: sticky !important;
+    top: 30px;
+    border-radius: 0 50px 50px 0;
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+
+#botonFiltrarProductos:hover{
+    background-color: #2592A9;
+}
+
+.pInvisibles{
+    display: none;
+}
+
+.tituloAparecer {
+    display: block;
+}
+
+.tituloBorrar {
+    display: none;
+}
+
+#btnBorrarFiltros{
+    background-color: transparent;
+    border: none;
+    color: #777777;
+}
+
+#btnBorrarFiltros:hover{
+    color: black;
+}
+
+#offcanvasScrolling{
+    max-width: 300px;
+}
+
+#offcanvasScrolling hr{
+    margin: 0;
+}
+
+input[type="checkbox"]:hover{
+    cursor: pointer;
+}
+
+.botonFiltrar{
+    padding: 16px;
+}
+
+#btnFilters{
+    background-color: #000000;
+    color: white;
+    font-weight: 400;
+    height: 38px;
+    padding: 8px 20px;
+    border: none;
+    width: 100%;
+}
+
+#btnFilters:hover{
+    background-color: #2592A9;
+}

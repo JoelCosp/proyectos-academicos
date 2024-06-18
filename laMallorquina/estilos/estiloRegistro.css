@@ -1,0 +1,68 @@
+.titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#linkLogin{
+    text-decoration: none;
+    color: black;
+}
+
+.texto{
+    font-size: 15px;
+    margin: 0 0 16px 0;
+}
+
+::placeholder{
+    color: black;
+}
+
+input[type='email'], input[type='password'], input[type='text']{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #b0b0b0;
+    margin: 0 0 16px 0;
+    padding: 5px;
+}
+
+input[type='radio']{
+    margin: 0 0 16px 0;
+}
+
+.centrado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centrado form{
+    width: 100%;
+}
+
+.centrado p{
+    text-align: center;
+}
+
+input[name='btnRegistrar']{
+    width: 100%;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+}
+
+input[name='btnRegistrar']:hover{
+    background-color: #2592a9;
+}
+
+span input{
+    max-height: 15px;
+}
+
+span label{
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}

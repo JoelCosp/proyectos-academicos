@@ -1,0 +1,99 @@
+.titulo{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#formularioIniciar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type='email'], input[type='password']{
+    width: 100%;
+    border: none;
+    border-bottom: solid 1px #b0b0b0;
+    margin: 0 0 16px 0;
+    padding: 5px;
+}
+
+input[type='password']{
+    margin-bottom: 16px;
+}
+
+.texto{
+    margin-bottom: 16px;
+}
+
+.centrado{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.centrado form{
+    width: 100%;
+}
+
+.centrado p, #formularioIniciar p{
+    text-align: center;
+}
+
+.centrado a{
+    text-decoration: none;
+    color: black;
+}
+
+input[name='iniciarSesion']{
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+}
+
+input[name='iniciarSesion']:hover{
+    background-color: #2592a9;
+}
+
+input[name='google']{
+    border: none;
+    background-color: #e74c3c;
+    color: white;
+}
+
+/*
+
+#formularioIniciar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+input[type='email'],
+input[type='password'],
+input[type='submit'] {
+    width: 100%;
+    max-width: 400px;
+    border: none;
+    border-bottom: solid 1px #b0b0b0;
+    margin: 8px 0; 
+    padding: 8px;
+    box-sizing: border-box;
+    display: inline-block; 
+}
+
+input[type='submit'] {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+*/
