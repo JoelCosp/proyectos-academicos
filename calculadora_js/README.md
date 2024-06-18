@@ -1,4 +1,4 @@
-# Documentación del proyecto: Calculadora JS
+# Calculadora JS
 
 Esta carpeta contiene todo el contenido referente a uno de los proyectos realizados durante el primer curso. Se trata de
 una simple calculadora que dispone de: 
