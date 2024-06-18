@@ -1,0 +1,365 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a{
+
+}
+
+/*-----NAV-----*/
+
+nav{
+    height: 70px;
+    max-width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+ul img{
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: auto;
+    height: 60px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 70px;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0 30px 0 30px;
+    color: #EA8C24;
+}
+
+nav ul li:last-child{
+    color: white;
+    background-color: #EA8C24;
+    border-radius: 100px;
+    padding: 5px 10px;
+    border: solid 0.5px black;
+
+}
+
+.tabla{
+    color: #EA8C24;
+    text-decoration: none;
+}
+
+/*-----PRIMERA SECCION-----*/
+
+section{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    text-align: center;
+}
+
+h2{
+    font-size: 35px;
+    color: white;
+    margin: 0;
+    padding: 90px 0 0 0;
+}
+
+h3{
+    color: white;
+    font-size: 15px;
+    font-weight: 100;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+.primera{
+    justify-content: center;
+    background-image: url(img/cocina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contenedor{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 90px 0;
+}
+
+.contenedor div{
+    width: auto;
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+
+.contenedor div div{
+    width: 130px;
+    height: 30px;
+    background-color: #EA8C24;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor div div:nth-child(2){
+    margin-left: 20px;
+    background-color: white;
+    color: white;
+}
+
+h4{
+    margin: 0;
+    color: white;
+}
+
+.negro{
+    color: black;
+}
+
+/*-----SEGUNDA SECCION-----*/
+
+.segunda{
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.segunda h2{
+    padding: 0;
+    color: black;
+}
+
+/*-----TERCERA SECCION-----*/
+
+.tercera{
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bloque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 25px 0;
+}
+
+.articulo{
+    height: 290px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    border: solid 0.5px #dbdbdb;
+    padding: 9px;
+    margin: 0 0 0 25px;
+}
+
+#sin{
+    margin-left: 0;
+}
+
+.articulo img{
+    width: 160px;
+    height: auto;
+    margin: 0 0 15px 0;
+}
+
+h5, h6{
+    margin: 0;
+    width: 160px;
+    text-align: left;
+}
+
+h5{
+    height: 24px;
+    font-size: 10px;
+    margin: 0 0 3px 0;
+    line-height: 12px;
+}
+
+.botones h5{
+    font-weight:100;
+}
+
+h6{
+    height: 20px;
+    color: #a09e9e;
+    font-size: 8px;
+    line-height: 11px;
+    font-weight: 100;
+}
+
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.b{
+    width: auto;
+    padding: 7px 11px;
+    margin: 0;
+    line-height: 20px;
+}
+
+#primero{
+    height: auto;
+    background-color: black;
+    color: white;
+    border-radius: 2px;
+    
+}
+
+/*-----CUARTA SECCION-----*/
+
+.cuarta{
+    width: 100%;
+    background-color: #e4e4e4;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.cuarta .contenedor{
+    padding: 0;
+}
+
+.cuarta h3{
+    padding: 0;
+    color: black;
+}
+
+.cuarta h3:nth-child(2){
+    font-size: 8px;
+    margin: 10px 0 0 0;
+}
+
+.cuarta input{
+    border-radius: 0;
+    padding: 0 18px;
+    border: solid 0.5px black;
+}
+
+input:first-child{
+    height: 20px;
+    font-family: arial;
+    font-size: 5px;
+    font-weight: 100;
+    width: 120px;
+    text-align: left;
+    padding-right: 40px;
+}
+
+input:nth-child(2){
+    height: 21px;
+    background-color: black;
+    color: white;
+    font-size: 5px;
+    font-weight: 100;
+}
+
+/*-----QUINTA SECCION-----*/
+
+.quinta{
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.quinta div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 40px;
+}
+
+.hombre{
+    width: 350px;
+    height: auto;
+}
+
+.quinta h3{
+    color: black;
+    padding: 0;
+    text-align: left;
+    margin: 0 0 8px 0;
+}
+
+.quinta h5{
+    text-align: center;
+    width: 50%;
+    margin: 70px 0 0 0;
+    font-weight: 100;
+}
+
+/*-----SEXTA SECCION-----*/
+
+.sexta{
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 25px 0;
+}
+
+.sexta div{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}   
+
+.sexta h2{
+    font-size: 25px;
+    padding: 0;
+}
+
+.sexta ul{
+    margin: 0;
+    padding: 0;
+}
+
+.sexta li{
+    padding: 30px 60px;
+}
+
+/*-----SEPTIMA SECCION-----*/
+
+.septima{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.septima img{
+    width: auto;
+    height: 50px;
+    margin: 0 auto;
+}
