@@ -1,0 +1,2928 @@
+
+html {
+    font-size: 14px;
+}
+
+body {
+    background: linear-gradient(90deg, #ffffff, #f0f0f0) !important;
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* CLASES DEL MODO CLARO Y MODO OSCURO DEL BODY */
+
+h2, h3{
+    color: black;
+}
+
+h1{
+    color: white;
+}
+
+.filaSubs h1{
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.reqInfo{
+    color: black;
+}
+
+body .p-icon{
+    color: black;
+}
+
+.send-review{
+    color: black;
+}
+
+.navbar{
+    background: white;
+}
+
+/* Modo claro vista suscripcion */
+
+.suscripcion p{
+    color: black;
+}
+
+.p-datatable-tbody td{
+    color: black;
+}
+
+/*body .rightMenu ul{
+    background: white !important;
+}*/
+
+/* MODO OSCURO ACTIVADO */
+
+.dark-mode{
+    background: linear-gradient(90deg, #111a29, #131e2e, #162233, #182639, #1a2a3e, #1d2e44, #1f3349, #21374f) !important;
+    font-family: var(--font-family);
+    font-weight: normal;
+    background: var(--surface-ground);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dark-mode h1{
+    color: white;
+}
+
+.dark-mode .filaSubs h1{
+    color: white;
+}
+
+.dark-mode h2 {
+    color: white;
+}
+
+.dark-mode p{
+    color: white;
+}
+
+.dark-mode .p-datatable-tbody td{
+    color: white;
+}
+
+.dark-mode .reqInfo{
+    color: white;
+}
+
+.dark-mode .send-review{
+    color: white;
+}
+
+.dark-mode .p-icon{
+    color: white;
+}
+
+.dark-mode .navbar{
+    background: linear-gradient(90deg, #0a0f18, #0c141f, #0e1724, #101a29, #121d2e, #142133, #162438, #18273e)!important;
+}
+
+
+/* Modo oscuro vista plan suscripcion */
+.dark-mode .suscripcion p{
+    color: white;
+}
+
+.dark-mode .greenBtn{
+    color: white !important;
+}
+
+.dark-mode .buyBtn{
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.31) !important;
+}
+
+.dark-mode .buyBtn:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+    transition: 0.3s;
+}
+
+/* Modo light y modo oscuro de iconos primevue */
+
+.pi{
+    filter: invert(1);
+}
+
+.pi-h1{
+    filter: none;
+}
+
+.dark-mode .pi{
+    filter: invert(0);
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+p {
+    line-height: 1.75;
+}
+
+ol{
+    margin: 0px;
+    padding-left: 0rem;
+}
+
+/*h1, h2, h3{
+    color: white;
+    margin: 0;
+}*/
+
+/* LOGO IWATCH */
+
+.navbar-icon-light{
+    filter: invert(1);
+}
+
+
+/* ESTILOS NAV BAR */
+.navbar {
+    /*background: linear-gradient(90deg, #0a0f18, #0c141f, #0e1724, #101a29, #121d2e, #142133, #162438, #18273e) !important;*/
+
+
+    height: 68px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1111111111111111111111111111;
+    border: none;
+    box-shadow: none;
+}
+
+.resp-menu{
+    display: none;
+}
+
+.i-inv{
+    display: none;
+}
+
+.navbar-brand img{
+    max-width: 100px;
+}   
+
+.rightMenu ul, .settings-page .dropdown-menu{
+    background: linear-gradient(90deg, #0a0f18, #0c141f, #0e1724, #101a29, #121d2e, #142133, #162438, #18273e) !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.profileNavImg{
+    border-radius: 0.5rem;
+    max-width: 42px;
+    width: 42px;
+}
+
+.optionsList{
+    padding: 0;
+    margin: 0;
+}
+
+.profile-image-link{
+    max-width: 25px;
+    max-height: 25px;
+    border-radius: 0.4rem !important;
+}
+
+.themeLi{
+    padding: 7px 14px;
+}
+
+.optionsList li a, .settings-page .dropdown-menu a{
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: solid 2px transparent;
+    margin: 0;
+    padding: 7px 14px;
+}
+
+.optionsList li a p{
+    color: rgba(0, 0, 0, 0.7) !important;
+    border: solid 2px transparent;
+    margin: 0;
+}
+
+.dark-mode .optionsList li a p{
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.optionsList li a:hover{
+    color: black !important;
+    background-color: #c0c0c027;
+    border-left: solid 2px black;
+    transition: 0.3s;
+}
+
+.dark-mode .optionsList li a:hover, .settings-page .dropdown-menu a:hover{
+    color: white !important;
+    background-color: #c0c0c027;
+    border-left: solid 2px white;
+    transition: 0.3s;
+}
+
+.dropdown-divider{
+    margin: 0;
+    background: transparent;
+}
+
+/* estilos search bar */
+
+.searchBox{
+    position: relative;
+}
+
+.form-control{
+   background-color: transparent;
+   border: none;
+}
+
+.search-control {
+    background-color: transparent;
+    border: none;
+    color: white; 
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+    width: 200px; 
+    box-shadow: none;
+}
+
+.search-control:focus {
+    outline: none; 
+    background-color: transparent; 
+    color: white; 
+    box-shadow: none;
+    border: 2px solid white;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.search-control:focus::placeholder{
+    color: white;
+}
+
+.pi-search{
+    position: absolute;
+    right: 10px;
+    z-index: 11;
+    transform: scale(1.2);
+    transition: color 0.3s;
+}
+
+.searchBox:focus-within .pi-search {
+    color: white;
+}
+
+@media (min-width: 767px){
+
+    /* iconos de las opciones del nav en version escritorio */
+    .l-invisible{
+        display: none;
+    }
+
+}
+
+/* estilos navbar collapsed */
+
+.navbar-collapse{
+    background: linear-gradient(90deg, #0a0f18, #0c141f, #0e1724, #101a29, #121d2e, #142133, #162438, #18273e);
+    border-radius: 2vw !important;
+}
+
+/* ESTILOS LOGIN Y REGISTER */
+
+.registerContent{
+    margin-top: 120px;
+}
+
+.contenedorInputs{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+
+    width: 450px;
+    
+    border: solid 1px rgba(255, 255, 255, 0.1) !important;
+}
+
+.logoImgLogin{
+    max-width: 150px;
+    filter: invert(1);
+}
+
+.dark-mode .logoImgLogin{
+    max-width: 150px;
+    filter: invert(0);
+}
+
+.loginTitle{
+    font-weight: 700 !important;
+}
+
+.registerCard{
+    background-color: transparent !important;
+}
+
+.registerTitle img{
+    max-width: 10px;
+    filter: invert(1);
+}
+
+.dark-mode .registerTitle img{
+    filter: invert(0);
+}
+
+/* ANDREU */
+
+@media (max-width: 970px){
+    h1, h2{
+        margin: 0 !important;
+        word-break: normal;
+    }
+
+    .login-h1 {
+        font-size: 4vw;
+    }
+
+    .login-h2 {
+        font-size: 3vw; /* Tamaño de fuente más pequeño */
+    }
+
+    .login1-container{
+        margin-bottom: 20px;
+    }
+
+    .login2-container{
+        margin-top: 20px;
+    }
+
+    .playlist-content h1{
+        margin-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 576px){
+
+    .infoImg{
+        width: 323px;
+    }
+
+    .arrow{
+        padding: 20px 0 15px 0;
+    }
+
+    .p-accordion, .p-accordion-tab, .p-accordion-header, .p-accordion-content, .p-toggleable-content{
+        width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+.login-text1{
+    margin-left: 50px;
+}
+
+.login-text2{
+    margin-right: 50px;
+}
+
+.login-h1{
+    color: black;
+}
+
+.dark-mode .login-h1{
+    color: white;
+}
+
+.infoSection1{
+    padding: 110px 15px;
+}
+
+.infoSection2{
+    padding: 110px 15px;
+}
+
+.arrow{
+    /* padding: 20px 0 15px 0; */
+    padding: 20px 0;
+}
+/* ANDREU */
+.accion{
+    width: 100%;
+}
+
+.reqInfo, .reqInfo:focus{
+    background-color: transparent;
+    width: 100%;
+    height: 56px;
+    border: none;
+    color: black;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.31) !important;
+    box-shadow: none;
+}
+
+.dark-mode .reqInfo{
+    border: solid 1px rgba(255, 255, 255, 0.1) !important;
+    color: white;
+}
+
+input.reqInfo::placeholder{
+    color: #7C7C7C;
+}
+
+.p-inputtext{
+    color: white;
+}
+
+/* estilos dle panel que muestra si la contraseña del registro es fiable o no */
+
+.register-password .p-password{
+    padding: 0;
+}
+
+.p-password-input{
+    width: 100%;
+    height: 100%;
+    padding: 5.25px 10.5px !important;
+    box-shadow: none;
+}
+
+.p-password-panel{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+/* password component */
+
+.p-inputtext{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 0;
+}
+
+.p-inputtext:focus{
+    outline: none !important;
+}
+
+.accion{
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+    border: none;
+    font-weight: 700;
+    border-radius: 0.5rem !important;
+    width: 100%;
+    height: 45px;
+    color: white;
+    margin-top: 20px;
+}
+
+.accion:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.createAccount{
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.5rem !important;
+    width: 100%;
+    height: 45px;
+    color: white;
+    border: solid 1px rgba(255, 255, 255, 0.1) !important;
+}
+
+.createAccount:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
+.createAccount:hover p{
+    color: black;
+}
+
+.createAccount p{
+    width: 100%;
+    text-align: center;
+}
+
+.createAccountAction:hover{
+    background-color: black !important;
+    color: white !important;
+}
+
+.dark-mode .createAccountAction:hover{
+    background-color: white !important;
+    color: black !important;
+}
+
+.txtLog{
+    color: #7C7C7C !important;
+}
+
+.txtLog:hover{
+    color: white !important;
+    transition: 0.3s;
+}
+
+.form-check-label{
+    color: white;
+}
+
+/* estilos secciones inferiores info */
+
+.downArrow{
+    width: 100px;
+}
+
+.downArrow:hover{
+    filter: brightness(2.5);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.infoRow h1, .infoQuestions h1{
+    font-weight: 900;
+}
+
+.infoRow h2{
+    font-weight: 400;
+}
+
+.infoRow h1, .infoRow h2{
+    word-break: normal;
+}
+
+.infoImg{
+    max-width: 500px;
+}
+
+/* nuevos estilos seccion info login */
+
+.frst-sect-img{
+    max-width: 2300px;
+    background-color: #040814;
+    padding: 10px 0;
+}
+
+.frst-sect-img h1{
+    font-weight: 900;
+    font-size: 3vw;
+}
+
+.frst-sect-img h2{
+    font-weight: 400;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.frst-sect-img img{
+    width: 100%;
+}
+
+.f-el{
+    padding: 50px 0 0 0;
+}
+
+.l-el{
+    padding: 0 0 50px 0;
+}
+
+/* estilos preguntas frecuentes */
+
+.infoQuestions{
+    padding: 110px 0;
+}
+
+.infoQuestions h1{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+}
+
+.dark-mode .infoQuestions h1{
+    color: white;
+}
+
+.infoQuestions #pv_id_1_0_header_action, .p-accordion-content, .infoQuestions .p-accordion-header-link{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+}
+
+.infoQuestions .p-accordion-content {
+    margin-bottom: 20px;
+}
+
+.infoQuestions .p-accordion-header-text{
+    font-size: 17px;
+}
+/* ANDREU */
+@media (max-width: 576px){
+    .p-toggleable-content{
+        width: 280px;
+    }
+
+    .p-accordion-header{
+        width: 280px;
+    }
+
+    .p-accordion{
+        margin-right: 60px;
+    }
+
+    .p-accordion-header-link{
+        margin-bottom: 5px;
+    }
+}
+
+/* ESTILOS HOME PAGE */
+
+.mainHomeFluidCont{
+    margin-top: -50px;
+    /* Padding para eliminar el bug del nav */
+    padding: 0 7px;
+}
+
+.homeFluidCont{
+    margin-top: 75px;
+    /* Padding para eliminar el bug del nav */
+    padding: 0 7px;
+}
+
+.homeContainer{
+    max-width: 1800px !important;
+    padding: 0 7px;
+}
+
+.mainVideo{
+    position: relative;
+}
+
+#my-video{
+    border-radius: 0.5rem !important;
+}
+
+.mainReproducerBtn{
+    position: absolute;
+    z-index: 111;
+    left: 70px;
+    bottom: 100px;
+}
+
+.mainReproducerBtn h1{
+    font-size: 4.2rem;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.mainReproducerBtn h2{
+    margin: 0 0 20px 0;
+}
+
+.mainReproducerBtn img{
+    max-width: 25px;
+    margin-right: 10px;
+}
+
+.mainReproducerBtn2{
+    padding: 15px 25px;
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    max-width: 21.6rem;
+    font-size: 1.875rem;
+}
+
+.mainReproducerBtn2:hover, .watch:hover, .accion:hover{
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.mainReproducerBtn2:hover .dark-btn-img, .watch:hover .dark-btn-img{
+    filter: brightness(0.1);
+    transition: 0.3s;
+}
+
+.remarkable{
+    color: #00CDAC;
+}
+
+.secondary{
+    display: none !important;
+}
+
+.secondaryVideo{
+    min-height: 460px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column;
+    margin-bottom: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    border-radius: 0.5rem !important;
+}
+
+.secondaryVideo video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.secondaryVideo h1{
+    text-align: center;
+    margin-top: 270px !important;
+    margin-bottom: 15px !important;
+}
+
+/* .secondaryVideo button{
+    padding: 15px 25px;
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    width: 30vw;
+    font-size: 1.875rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin: 0 auto;
+} */
+
+.secondaryVideo button p{
+    font-size: 5vw;
+}
+
+.btn-cont{
+    width: fit-content;
+}
+
+.button1{
+    display:inline-block;
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+    padding:0.35em 1.2em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    text-align:center;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 5vw;
+    margin: 0.3em;
+}
+
+.button2{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    color:#FFFFFF;
+    text-align:center;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    font-size: 5vw;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    margin: 0.3em;
+}
+
+.secondaryVideo .btn-cont img{
+    width: 5vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+}
+
+@media all and (max-width:30em){
+
+    .btn-cont{
+        width: 100%;
+        margin: 0 7px;
+    }
+
+    .button1{
+        display:block;
+        margin:0.4em auto;
+        width: 100%;
+    }
+
+    .button2{
+        display:block;
+        margin:0.4em auto;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+/* media query para mostrar el secondaryVideo */
+
+@media (max-width: 850px){
+    
+    .principal{
+        display: none !important;
+    }
+    
+    .secondary{
+        display: block !important;
+    }
+}
+
+@media (max-width: 576px){
+    .mainReproducerBtn{
+        bottom: 50px;
+    }
+
+    .mainReproducerBtn h1{
+        font-size: 2.7rem;
+    }
+
+    .mainReproducerBtn button{
+        font-size: 1.450rem;
+    }
+}
+
+.firstVideo{
+    margin-bottom: 30px;
+}
+
+.homeContainer h2{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.p-carousel-container{
+    /* padding-top: 20px; */
+    /* padding-bottom: 40px; */
+    padding-bottom: 30px;
+    /* background-color: pink; */
+}
+
+.p-carousel{
+    padding: 0 !important;
+}
+
+.p-carousel-item{
+    padding: 20px 5px;
+    /* background-color: green; */
+}
+
+.surface-border{
+    border: none;
+    padding: 0 !important;
+    max-width: 350px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.74);
+}
+
+.surface-border:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.border-round{
+    box-shadow: none !important;
+    height: 100%;
+    width: 100%;
+}
+
+.border-round img{
+    max-width: 280px !important;
+    max-height: 382px !important;
+}
+
+.news{
+    border: none;
+    padding: 0 !important;
+    max-width: 350px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.74);
+}
+
+.news:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+
+.normal-size{
+    max-width: 338.8px;
+    max-height: 170px !important;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+    border-radius: 0.5rem !important;
+}
+
+.normal-size:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: solid 1.5px white;
+}
+
+.image-item{
+    max-height: 165px;
+    border-radius: 7.61px !important;
+}
+
+.img-news{
+    max-height: 420px;
+    max-width: 340px !important;
+    border-radius: 0.5w !important;
+    height: 420px;
+}
+
+.new-last-cont, .img-search-view{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.4);
+}
+
+.new-last-cont:hover, .img-search-view:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: 0.5s;
+    border: solid 1.5px white;
+}
+
+@media (max-width: 448px){
+    .p-carousel-item{
+        display: flex;
+        justify-content: center;
+    }
+
+    .normal-size{
+        width: 100% !important;
+        max-height: 170px !important;
+    }
+
+    .image-item{
+        width: 100% !important;
+        border-radius: 7.61px !important;
+    } 
+}
+
+.firstNewsRow .p-carousel-prev, .firstNewsRow .p-carousel-next{
+    visibility: hidden;
+}
+
+.p-carousel-prev:hover, .p-carousel-next:hover{
+    background-color: transparent;
+}
+
+@media (max-width: 1440px){
+    .firstNewsRow .p-carousel-prev, .firstNewsRow .p-carousel-next{
+        visibility: visible;
+    }
+
+    .last-news-container{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.p-icon{
+    color: white;
+}
+
+.p-icon:hover{
+    color: black;
+}
+
+.p-carousel-indicators{
+    display: none;
+}
+
+.firstNewsRow h2, .keepWatching h2, .myFavsContentList h2, .contByCatsCarrousel h2{
+    margin-bottom: 0;
+}
+
+/* estilo swal */
+
+.swal2-container{
+    z-index: 105999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999990;
+    background-color: transparent !important;
+}
+
+.swal2-popup{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+
+    width: fit-content !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 17.5px !important;
+}
+
+.dark-mode .swal2-popup{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.swal2-icon{
+    margin: 0;
+}
+
+.swal2-popup h2{
+    padding: 0;
+    height: auto !important;
+    margin: 10px;
+}
+
+.swal2-success-circular-line-left, .swal2-success-circular-line-right, .swal2-success-fix{
+    background-color: transparent !important;
+}
+
+.swal2-title{
+    color: white !important;
+}
+
+.succes-progress-bar{
+    background-color: #A5DC86 !important;
+}
+
+.error-progress-bar{
+    background-color: #F27474 !important;
+}
+
+/* estilo modal */
+.modal {
+    z-index: 1059999999999999999999999999999999999999999999999999999999999999999999999999999999999999999990;
+}
+
+.modal-backdrop {
+    display: none !important;
+}
+
+.modal-content{
+    /* background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border: 1px solid rgba(255, 255, 255, 0.31); */
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+}
+
+.dark-mode .modal-content{
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.modal-body{
+    position: relative;
+}
+
+.modal h2{
+    color: white;
+}
+
+.modal p{
+    color: white;
+}
+
+.p-rating-icon{
+    color: white !important;
+}
+
+.close-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 11;
+    border-radius: 50%;
+    border: solid 1px white;
+    background-color: transparent;
+}
+
+.close-btn:hover{
+    background-color: rgb(255, 255, 255, 0.3);
+    border: solid 1px black;
+    transition: 0.3s;
+}
+
+.close-btn:hover i{
+    color: black !important;
+}
+
+.videoCont{
+    position: relative;
+}
+
+.modal-body #my-video{
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.overlay{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(20,20,20);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(0,0,0,0) 100%, rgba(20,20,16,1) 141410%);
+    height: 20px;
+    z-index: 1;
+}
+
+.p-rating:nth-child(2){
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin: 0 !important;
+}
+
+.info h2{
+    margin: 0 !important;
+}
+
+.synopsis-paragraph{
+    max-width: 100%;
+    word-break: normal;
+}
+
+.watch{
+    padding: 15px 25px;
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 0.5rem;
+    width: 100%;
+}
+
+.watch img{
+    max-width: 17px;
+    position: relative;
+    right: 5px;
+}
+
+.favourite{
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+    padding: 0 25px;
+    border-radius: 0.5rem;
+    margin-left: 21px;
+}
+
+.favourite:hover{
+    background-color: white;
+    color: black;
+    border: white;
+    transition: 0.3s;
+    text-decoration: none;
+    border: white;
+}
+
+.favoriteIcon{
+    max-width: 20px;
+}
+
+.favourite:hover .favoriteIcon{
+    filter: brightness(0);
+}
+
+.menu-dropdown{
+    position: relative;
+}
+
+.p-dropdown-items-wrapper{
+    width: 100%;
+    background-color: white !important;
+    z-index: 2000;
+}
+
+.serie-content{
+    position: relative;
+    margin-top: 25px;
+}
+
+.p-rating{
+    height: auto !important;
+}
+
+/* estilos tabView */
+
+.p-tabview-nav{
+    background-color: transparent !important;
+    padding: 0;
+}
+
+.p-tabview-nav-prev, .p-tabview-nav-next{
+    background-color: transparent !important;
+}
+
+.p-tabview-nav li a{
+    background-color: transparent !important;
+    color: white;
+}
+
+/* estilos episodios */
+
+.p-tabview-panels{
+    padding: 0;
+}
+
+.p-tabview-panels, .episodes-list, .episode{
+    background-color: transparent !important;
+}
+
+.episode{
+    width: 100%;
+}
+
+.episode-miniature{
+    max-width: 150px;
+    max-height: 86px;
+    height: 100%;
+    width: 100%;
+}
+
+.episode-miniature img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+}
+
+.episode-primary-info{
+    color: white;
+    max-height: 86px;
+    overflow: hidden;
+    padding: 0 9px;
+}
+
+.episode-secondary-info{
+    color: white;
+    display: flex;
+    align-content: space-between !important;
+}
+
+.btnPlayEpisode{
+    padding: 10px;
+    border-radius: 100px;
+    max-width: 45px;
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+}
+
+.btnPlayEpisode img{
+    max-width: 20px;
+}
+
+#episode_name{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+#description{
+    max-width: 250px;
+    word-wrap: break-word;
+    max-height: 90px;
+    overflow: scroll !important;
+    font-size: 12px;
+}
+
+#duration{
+    font-size: 10px;
+}
+
+/* estilos menu reseñas modal */
+
+.p-panel, .p-panel-header, .p-panel-content{
+    background-color: transparent !important;
+    border: 1px solid transparent !important;
+}
+
+.p-panel{
+    border: 1px solid rgba(0, 0, 0, 0.31) !important;
+    border-radius: 0.5rem !important;
+}
+
+.dark-mode .p-panel{
+    border: 1px solid rgba(255, 255, 255, 0.31) !important;
+}
+
+.p-panel-content{
+    border-top: 1px solid rgba(0, 0, 0, 0.31) !important;
+}
+
+.dark-mode .p-panel-content{
+    border-top: 1px solid rgba(255, 255, 255, 0.31) !important;
+}
+
+.p-panel-header span{
+    color: black;
+}
+
+.dark-mode .p-panel-header span{
+    color: white;
+}
+
+.modal .p-panel-header span{
+    color: white;
+}
+
+.modal .p-panel{
+    border: 1px solid rgba(255, 255, 255, 0.31) !important;
+}
+
+.modal .p-panel-content{
+    border-top: 1px solid rgba(255, 255, 255, 0.31) !important;
+}
+
+.p-panel svg{
+    color: black;
+}
+
+.modal svg{
+    color: white;
+}
+
+.selectRate{
+    margin-bottom: 14px;
+}
+
+.review-send{
+    display: grid;
+    gap: 21px;
+}
+
+/* estilos seccion reviews modal  */
+
+.send-review{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    margin: 0 !important;
+    width: 75%;
+}
+
+.send-review:focus{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    margin: 0 !important;
+}
+
+.send-review::placeholder{
+    color: white;
+}
+
+#review-stars-count{
+    width: 100%;
+    margin: 0;
+}
+
+.review-actions{
+    gap: 21px;
+}
+
+.review-actions button{
+    width: 100%;
+    margin: 0 !important;
+}
+
+#show-reviews{
+    width: 100%;
+}
+
+.btn-submit-review, .btn-show-review{
+    margin: 0 !important;
+    padding: 8px !important;
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+}
+
+.btn-submit-review:hover, .btn-show-review:hover{
+    background: white !important;
+    transition: 0.3s;
+}
+
+.sendReviewIcon, .showReviewsIcon{
+    max-width: 20px;
+}
+
+.btn-submit-review:hover .sendReviewIcon, .btn-show-review:hover .showReviewsIcon{
+    filter: brightness(0);
+}
+
+
+/* ESTILOS FOOTER */
+
+.main-footer{
+    margin-top: 60px;
+}
+
+.dark-mode .footerSection{
+    background: linear-gradient(90deg, #111a29, #131e2e, #162233, #182639, #1a2a3e, #1d2e44, #1f3349, #21374f) !important;
+
+    color: white;
+}
+
+.footerSection{
+    background: linear-gradient(90deg, #ffffff, #f0f0f0) !important;
+    color: black;
+}
+
+.dark-mode .footerSection img{
+    filter: none;
+    max-width: 50px;
+    background-color: transparent !important;
+    margin: 0 15px;
+}
+
+.footerSection img{
+    filter: invert(1);
+    max-width: 50px;
+    background-color: transparent !important;
+    margin: 0 15px;
+}
+
+.dark-mode .footerSection p{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.footerSection p{
+    text-align: left;
+    color: rgba(0, 0, 0, 0.7) !important;
+}
+
+.dark-mode .footerSection p:hover{
+    color: white !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footerSection p:hover{
+    color: black !important;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.footerInfoIWatch{
+    text-align: center !important;
+}
+
+.dark-mode .social-icon {
+    width: 30px;
+    height: 30px;
+    filter: brightness(0.8) !important;
+    
+}
+
+.social-icon{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0.5) !important;
+}
+
+.dark-mode .social-icon:hover {
+    filter: brightness(1) !important;
+    transition: 0.3s;
+}
+
+.social-icon:hover{
+    filter: brightness(0) !important;
+    transition: 0.3s;
+}
+/* ESTILOS SUSCRIPCIONES */
+
+.sub-container{
+    margin-top: 120px !important;
+}
+
+.filaSubs{
+    max-width: 1440px;
+}
+
+.filaSubs h1, .filaSubs h2{
+    max-width: 1100px;
+    word-break: normal;
+}
+
+.filaSubs h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1200px){
+    .filaSubs h1, .filaSubs h2{
+        max-width: 1100px;
+        word-break: normal;
+        padding: 0 17px !important;
+    }
+
+    .filaSubs h2{
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 30px !important;
+    }
+}
+
+.subsBoxes{
+    margin-bottom: 150px;
+}
+
+.medal{
+    width: 100%;
+    height: 80px;
+    background-color: red;
+    border-radius: 0.5rem;
+}
+
+.suscripcion{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    transition: transform 0.4s;
+}
+
+.suscripcion:hover{
+    transform: scale(1.03);
+    backdrop-filter: none; 
+    -webkit-backdrop-filter: none;
+}
+
+.subscriptionsName{
+    font-weight: 700 !important;
+}
+
+.subscriptionsDescription{
+    font-weight: 300 !important;
+}
+
+.p-inv{
+    display: none;
+}
+
+.precio p{
+    font-size: 30px !important;
+    font-weight: 700 !important;
+}
+
+/* estilos tabla suscripciones */
+
+.sub-table{
+    max-width: 1100px !important;
+    margin-bottom: 150px;
+} 
+
+.p-datatable, .p-datatable-wrapper, 
+.p-datatable-table, .p-datatable-thead, 
+.p-datatable-thead th, .p-datatable-tbody, .p-datatable-tbody tr, .p-datatable-tbody td{
+    background-color: transparent;
+}
+
+.p-datatable{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+}
+
+.p-datatable-wrapper{
+    border-radius: 0.5rem !important;
+}
+
+.p-datatable-thead tr{
+   /* Fallback para navegadores que no soportan gradientes */
+  background-color: #02AAB0; /* Color de fondo */
+  /* Gradient con transparencia */
+  background: linear-gradient(to right, rgba(0, 205, 172, 0.8), rgba(2, 170, 176, 0.8));
+  /* Agregar prefijos de navegador para mejor compatibilidad */
+  background: -webkit-linear-gradient(to right, rgba(0, 205, 172, 0.8), rgba(2, 170, 176, 0.8)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(0, 205, 172, 0.8), rgba(2, 170, 176, 0.8));
+}
+
+.p-datatable-thead th{
+    color: white;
+}
+
+.p-datatable-thead th, .p-datatable-tbody td{
+    border: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+@media (max-width: 520px){
+    .sub-table{
+        max-width: 1100px !important;
+        overflow: hidden !important;
+    } 
+}
+
+/* ------------ */
+
+.infoCampo span{
+    /*color: white;*/
+    font-size: 12px;
+    font-weight: 700;
+} 
+
+.suscripcion p{
+    font-weight: 400;
+    margin: 0;
+    font-size: 16px;
+}
+
+.buyBtn{
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.31) !important;
+    color: black;
+    border: none;
+    margin-top: 60px;
+    padding: 15px 25px;
+    width: 100%;
+    font-weight: 700;
+    border-radius: 0.5rem;
+}
+
+.buyBtn:hover{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    transition: 0.3s;
+}
+
+/* ESTILOS PROFILE */
+
+.mainBox{
+    background-color: transparent !important;
+    margin-top: 110px;
+}
+
+.group{
+    max-width: fit-content;
+}
+
+.profileImageEdit{
+    position: relative !important;
+}
+
+.edit-prodileImg-btn{
+    position: absolute;
+    left: 1em !important;
+    bottom: 0.5em !important;
+    z-index: 1;
+    background-color: rgb(0, 0, 0, 0.3);
+    border-radius: 25px;
+    border: solid 0.5px black;
+}
+
+.gallery-cont{
+    width: fit-content;
+}
+
+.profileImageEdit img{
+   max-width: 200px;
+   height: 100%;
+   border-radius: 0.5rem !important;
+   width: 200px;
+}
+
+.gallery img{
+    max-width: 60px !important;
+    height: auto !important;;
+}
+
+.prof-image-names{
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.profile-btns button{
+    margin-top: 0 !important;
+}
+
+.deleteAccountAction{
+    background: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    color: black;
+}
+
+.deleteAccountAction:hover{
+    background: black;
+    color: white;
+    transition: 0.3s;
+}
+
+.dark-mode .deleteAccountAction:hover{
+    background: white;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn-modal{
+    position: relative;
+    bottom: 145px;
+    left: 275px;
+    /*background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);*/
+    background: black;
+    border: none;
+    font-weight: 700;
+    border-radius: 3.5vw !important;
+    border: 1px solid white;
+    color: white;
+    width: 35px;
+    height: 35px;
+}
+
+.btn-modal:hover{
+    background: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.btn-modal:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+@media (min-width: 23.44em) and (max-width: 64em) {
+    .btn-modal {
+        bottom: 513px;
+        left: 55px;
+    }
+}
+
+.modal-title{
+    margin-left: 25px;
+    position: relative;
+    top: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.title-profile{
+    margin-bottom: 40px;
+}
+
+.group h1{
+    color: black;
+}
+
+.dark-mode .group h1{
+    color: white;
+}
+
+.group .pi{
+    filter: invert(0);
+}
+
+@media (max-width: 971px){
+    .title-profile{
+        margin-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 561px){
+    .all{
+        flex-direction: column !important;
+    }
+
+    .profileImageEdit{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center !important;
+    }
+}
+
+/* estilos modal de las fotos del perfil de usuario */
+
+.user-profile-img img{
+    max-width: 140px;
+}
+
+/*.user-profile-img{
+    margin-top: 5px;
+}*/
+
+/* ESTILOS VISTA PELIS */
+
+.cont-principal{
+    padding-top: 70px;
+}
+
+.film-card{
+    max-width: 350px;
+}
+
+.miniature img{
+    width: 100%;
+}
+
+/* ESTILOS VIEWS PELICULAS, SERIES, FAVORITOS */
+
+.selector{
+    outline: none;
+    padding: 5px 10px;
+    border: solid 1px rgba(255, 255, 255, 0.5) !important;
+    border-radius: 0.5rem;
+    background: rgb(20, 20, 16);
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: solid 2px transparent;
+}
+
+option{
+    color: rgba(255, 255, 255, 0.7) !important;
+    border: solid 2px transparent;
+    margin: 0;
+    padding: 7px 14px;
+}
+
+option:hover{
+    color: white !important;
+    background-color: #1d1d1d;
+    border-left: solid 2px white;
+    transition: 0.3s;
+}
+
+.w-full {
+    width: 50%;
+}
+
+/* estilos casillas contenido 28/04/2024 */
+
+.search-content-view{
+    margin-top: 55px;
+    padding: 0 7px;
+}
+
+@media (max-width: 1000px){
+    .search-content-view h1{
+        margin-bottom: 14px !important;
+    }
+}
+
+.search-content-view h1{
+    color: black;
+}
+
+.dark-mode .search-content-view h1{
+    color: white;
+}
+
+.search-content-view .film-card{
+    margin: 5px !important;
+}
+
+.no-favs{
+    font-size: 20px;
+}
+
+.img-search-view{
+    width: 100%;
+}
+
+.img-search-view:hover{
+    cursor: pointer;
+}
+
+/* ESTILOS REVIEWS USUARIOS */
+
+.film-review-image{
+    max-width: 260px !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+}
+
+.film-review-image img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.review-pack{
+    max-width: 800px !important;
+}
+
+.fieldBox{
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 750px;
+}
+
+.fieldBox::-webkit-scrollbar {
+width: 0;
+}
+
+/* Track */
+.fieldBox::-webkit-scrollbar-track {
+}
+
+/* Handle */
+.fieldBox::-webkit-scrollbar-thumb {
+background: transparent;
+}
+
+/* Handle on hover */
+.fieldBox::-webkit-scrollbar-thumb:hover {
+background: transparent; 
+}
+
+
+/* +++++++++++++++++++++++ */
+/* NUEVOS ESTILOS RESEÑAS */
+/* +++++++++++++++++++++++ */
+
+.n-rev h1{
+    padding-bottom: 40px;
+    margin: 0;
+    max-width: 900px;
+    width: 100%;
+}
+
+.movie-banner{
+    max-width: 900px;
+    max-height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.inf-movie-review{
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 2;
+}
+
+.inf-movie-review h1, .inf-movie-review p{
+    margin: 0;
+    max-width: 350px;
+    word-break: keep-all;
+}
+
+.r-title{
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.banner-gradient{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.3) 75%, rgba(0,0,0,0) 100%);
+}
+
+.img-new-rev-section{
+    width: 100%;
+}
+
+.movie-banner{
+    border-radius: 0.5rem;
+}
+
+.movie-banner .img-new-rev-section {
+    transition: transform 0.5s ease; /* Establecemos una función de timing ease */
+    cursor: pointer;
+  }
+  
+  .movie-banner:hover .img-new-rev-section {
+    transform: scale(1.03);
+    cursor: pointer;
+  }
+/* nuevo estilo reviews inferiores */
+
+.inferior-reviews-content{
+    width: 100%;
+}
+
+.u-review{
+    max-width: 900px; /* Ancho máximo de 900px */
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+    margin-bottom: 10px;
+}
+
+
+/* ESTILO BUSCADOR PELICULAS */
+
+.filter-search-pack{
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.31);
+    border-right: none !important; 
+    margin-top: 67px;
+    width: 100%;
+    height: 50px;
+    padding: 0 3.4vw;
+}
+
+.dark-mode .filter-search-pack{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.31);
+}
+
+.film-finder{
+    border: none;
+    width: 100%;
+    color: black;
+    
+    background-color: transparent;
+    border-right: 1px solid rgba(0, 0, 0, 0.31);
+}
+
+.dark-mode .film-finder{
+    border-right: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+}
+
+.film-finder::placeholder{
+    font-size: 15px;
+    color: black !important;
+}
+
+.dark-mode .film-finder::placeholder{
+    color: white !important;
+}
+
+/* estilos dropdown search filter peliculas */
+
+.filter-search-pack .p-dropdown{
+    background-color: transparent;
+    border: none;
+}
+
+.p-dropdown{
+    border-right: 1px solid rgba(255, 255, 255, 0.31) !important;
+    border-radius: 0 !important;
+}
+
+.filter-search-pack .p-dropdown-label{
+    padding-left: 15px;
+    color: black;
+}
+
+.dark-mode .filter-search-pack .p-dropdown-label{
+    color: white;
+}
+
+.filter-search-pack .p-dropdown-trigger-icon{
+    color: black !important;
+}
+
+.dark-mode .filter-search-pack .p-dropdown-trigger-icon{
+    color: white !important;
+}
+
+.p-dropdown-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-dropdown-items-wrapper{
+    background: rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    border-right: none !important; 
+    border-bottom-left-radius: 0.5vw;
+    border-bottom-right-radius: 0.5vw;
+}
+
+.p-dropdown-panel, .p-dropdown-item{
+    background-color: transparent !important;
+}
+
+.p-dropdown-item{
+    color: black;
+}
+
+.dark-mode .p-dropdown-item{
+    color: white;
+}
+
+.p-dropdown-items{
+    padding: 0;
+}
+
+.p-dropdown-items li{
+    display: flex;
+    justify-content: center;
+}
+
+.p-dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    transition: 0.1s;
+}
+
+.dark-mode .p-dropdown-item:hover{
+    background-color: rgb(255, 255, 255, 0.1) !important;
+}
+
+.no-border-dropdown{
+    border: none;
+    box-shadow: none;
+}
+
+/* ---------------------- */
+.search-review, .p-fieldset{
+    background: transparent !important;
+    border-radius: 16px;
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    color: white;
+    border-radius: 0.5rem !important;
+    margin-bottom: 10px;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.search-review::placeholder, .film-finder::placeholder {
+    color: white;
+    font-weight: 300;
+}
+
+.film-finder:focus{
+    outline: none !important;
+}
+
+.search-review:focus{
+    background: transparent;
+    border-radius: 16px;
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    color: white;
+    outline: none !important;
+    box-shadow: none;
+}
+/* panel de la review */
+
+.all-review{
+    height: 100% !important;
+}
+
+.p-fieldset-legend{
+    background-color: transparent;
+    border: none;
+}
+
+.firstContentReview{
+    width: 100% !important;
+}
+
+.avatar-review p{
+    color: white !important;
+    padding: 0;
+    margin: 0;
+}
+
+.review-user-name{
+    font-size: 17px;
+}
+
+.review-description{
+    font-size: 15px;
+    font-weight: 300;
+    word-break: normal;
+    max-width: 577px;
+}
+
+.p-fieldset-content{
+    padding: 0;
+}
+
+/* estilos nota global */
+
+.film-rate{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;  
+}
+
+.film-rate img{
+    max-width: 27px;
+}
+
+.global-content p{
+    font-size: 2rem;
+}
+
+/* estilo info peli en las reviews */
+.film-info-review{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;  
+    max-width: 260px;
+}
+
+.film-info-review p{
+    margin: 0;
+}
+
+/* estilos barras porcentajes */
+
+.p-progressbar{
+    margin: 7px 0;
+    max-height: 13px;
+    width: 100% !important;
+    background-color: rgb(192, 192, 192) !important;
+}
+
+.p-progressbar-value{
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc) !important;
+}
+
+.p-progressbar-label{
+    display: none;
+}
+
+.note p{
+    margin: 0;
+    height: 100%;
+}
+
+.note img{
+    max-width: 17px;
+    margin: 0 5px;
+}
+
+/* estilos segundo diseño reviews */
+
+.find-review{
+    width: 50%;
+    margin-left: 20px;
+}
+
+.user-review{
+    max-width: 500px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+    margin-bottom: 10px;
+}
+
+.avatarImg{
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 0.5rem;
+
+}
+
+.userRating .p-icon{
+    max-width: 14px;
+    height: auto;
+}
+
+.user-review p{
+    word-break: normal;
+}
+
+/* ESTILOS ABOUT US */
+
+.bannerContent{
+    display: flex;
+    margin-bottom: 110px !important;
+}
+
+.mainLogo{
+    position: absolute;
+    z-index: 50;
+    width: 30vw;
+    left: 3%;
+}
+
+.aboutContent{
+    text-align: justify;
+}
+
+.firstText{
+    max-width: 700px;
+}
+
+.firstText ul li{
+    color: black;
+}
+
+.dark-mode .firstText ul li{
+    color: white;
+}
+
+.firstText h1{
+    color: black;
+}
+
+.dark-mode .firstText h1{
+    color: white;
+}
+
+.aboutContent h1, .firstText ul, .horizontalImg{
+    margin-bottom: 40px;
+}
+
+.firstText h1, .firstText p, .firstText li{
+    word-wrap: break-word;
+}
+
+.verticalImg{
+    max-height: 600px;
+    margin: 15px;
+}
+
+.horiImg{
+    max-width: 700px;
+}
+
+.horizontalImg{
+    width: 100%;
+}
+
+/* ESTILOS PAGINA SOPORTE */
+
+.complain-box{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+}
+
+/* ESTILOS PAGINA DE SETTINGS */
+
+.settings-page{
+    padding-top: 53px;
+}
+
+.options-content{
+    max-width: 700px;
+}
+
+.options-content h1{
+    margin-bottom: 40px;
+    color: black;
+}
+
+.dark-mode .options-content h1{
+    color: white;
+}
+
+.settings-page h3{
+    color: black;
+    margin: 25px 0 10px 0;
+}
+
+.dark-mode .settings-page h3{
+    color: white;
+}
+
+.settings-page p{
+    text-align: justify;
+    word-break: break-all;
+}
+
+@media (max-width: 1000px){
+    .options-content h1{
+        margin-bottom: 40px !important;
+    }
+}
+
+.settings-page ul{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+    color: white;
+}
+
+.settings-page ul li{
+    list-style: none;
+    padding: 5px 0 5px 15px;
+    margin-left: 15px;
+    border-left: solid 1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.dark-mode .settings-page ul li{
+    list-style: none;
+    padding: 5px 0 5px 15px;
+    margin-left: 15px;
+    border-left: solid 1px rgb(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.settings-page ul li:hover{
+    border-left: solid 1px rgb(0, 0, 0);
+    cursor: pointer;
+    background-color: rgb(255, 255, 255, 0.03);
+    transition: 0.3s;
+}
+
+.dark-mode .settings-page ul li:hover{
+    border-left: solid 1px rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255, 0.03);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section-title{
+    font-size: 16px;
+    padding-bottom: 10px !important;
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+    border: none !important;
+    background-color: transparent !important;
+    display: block !important;
+}
+
+.settings-page ul li i{
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    border-radius: 0.5rem !important;
+    color: white;
+}
+
+.settings-page ul li p{
+    margin: 0;
+}
+
+.right-arrow{
+    border: none !important;
+}
+
+.settings-page ul hr{
+    border-top: none !important;
+    background-color: transparent !important;
+}
+
+/* ESTILOS ADVICES */
+
+.advices-txt ul{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding-left: 0;
+}
+
+.advices-txt ul li{
+    border: none !important;
+}
+
+.settings-page .dropdown-menu{
+    border-radius: 0.5rem !important;
+}
+
+/* ESTILOS ICONO LOADING */
+
+.loading-icon {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    background: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);*/
+    width: 100px;
+    height: 110px;
+} 
+
+.loading{
+animation: spin 2s linear infinite;
+filter: invert(1);
+}
+
+.dark-mode .loading{
+    filter: none;
+}
+
+.loading-text{
+color: white;
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+/* ESTILOS PLAYLIST */
+
+.playlist-content{
+    max-width: 900px !important;
+    padding-top: 120px !important;
+}
+
+.playlist-content .p-tabview-nav li a{
+    color: black;
+}
+
+.dark-mode .playlist-content .p-tabview-nav li a{
+    color: white;
+}
+
+.playlist-content .p-tabview{
+    width: 100% !important;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+    border-radius: 0.5rem !important;
+    color: white;
+}
+
+.playlist-content .p-tabview-nav{
+    display: flex;
+    justify-content: center;
+}
+
+.p-tabview-panels{
+    padding: 17.5px;
+}
+
+.films-playlist-list{
+    max-height: 490px;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-bottom: 17.5px;
+    scroll-behavior: smooth;
+}
+
+.img-playlist-info{
+    max-width: 250px !important; 
+    max-height: 127px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+.mov-inf h2{
+    font-size: 30px;
+}
+
+.mov-inf h3{
+    font-size: 24.5px;
+    color: black;
+}
+
+.dark-mode .mov-inf h3{
+    color: white;
+}
+
+.mov-inf h2, .mov-inf h3{
+    max-width: 400px !important;
+    overflow-y: scroll !important;
+}
+
+.img-playlist-info img{
+    width: 100%;
+}
+
+.playlist-content h1{
+    margin-bottom: 40px;
+    color: black;
+}
+
+.dark-mode .playlist-content h1{
+    color: white;
+}
+
+.playlist-content h1 .pi{
+    filter: none;
+}
+
+.s-visible{
+    display: none;
+}
+
+.films-playlist-list h2{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.films-playlist-list h3{
+    font-weight: 400;
+    color: white;
+}
+
+.icon-button{
+    display: contents;
+}
+
+.icon-button img{
+    filter: invert(1);
+}
+
+.icon-button .delete-img{
+    filter: invert(0);
+}
+
+.dark-mode .icon-button img{
+    filter: none;
+}
+
+.dark-mode .icon-button .delete-img{
+    filter: invert(1);
+}
+
+.hr-playlist{
+    border-color: black;
+}
+
+.dark-mode .hr-playlist{
+    border-color: white;
+}
+
+.add-remove button{
+    background-color: transparent;
+    color: white;
+    font-weight: 700;
+    border: solid 1px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+}
+
+.add-remove button .pi:hover{
+    filter: invert(0);
+}
+
+.dark-mode .add-remove button .pi:hover{
+    filter: invert(1);
+}
+
+.dark-mode .add-remove button{
+    border: solid 1px rgba(255, 255, 255, 0.5);
+}
+
+.add-remove button:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+
+.dark-mode .add-remove button:hover{
+    background-color: white;
+    transition: 0.3s;
+}
+
+.add-remove button:hover i {
+    filter: brightness(0); /* Este valor oscurece el elemento al 50% */
+}
+
+.add-button-active {
+    background: linear-gradient(to right, rgba(0, 205, 172, 0.8), rgba(2, 170, 176, 0.8));
+  /* Agregar prefijos de navegador para mejor compatibilidad */
+  background: -webkit-linear-gradient(to right, rgba(0, 205, 172, 0.8), rgba(2, 170, 176, 0.8)); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(0, 205, 172, 0.8), rgba(2, 170, 176, 0.8));
+  }
+
+
+
+/* estilos mundo iwatch */
+
+.playlist-content .p-panel{
+    margin: 10px 0;
+}
+
+.playlist-content .panel-header{
+    width: 100%;
+}
+
+/* estilos responsive playlist */
+
+@media (max-width: 767px){
+    
+    .playlist-content{
+        padding-top: 0 !important;
+    }
+    
+    .info-content, .pl-cont{
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    .mov-inf{
+        align-items: center !important;
+    }
+
+    .p-visible{
+        display: none;
+    }
+
+    .s-visible{
+        display: block;
+    }
+
+    .playlist-content h1{
+        margin-bottom: 20px !important;
+    }
+
+    .mov-inf h2, .add-remove{
+        margin-top: 10px !important;
+    }
+
+    .mov-inf h2, .mov-inf h3{
+        word-break: normal;
+    }
+
+    .inp-actions-playlist{
+        flex-direction: column;
+    }
+
+    .inp-actions-playlist input, .inp-actions-playlist button{
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    /* opciones menu del nav cuando esta collapsed */
+
+    .resp-menu{
+        display: block;
+    }
+
+    .nav-item{
+        text-align: center;
+    }
+
+    .rightMenu{
+        display: none;
+    }
+
+    /* quitar tabla de suscripciones + aparecer/desaparecer textos al reducir el ancho de la pantalla */
+
+    .subsBoxes{
+        margin-bottom: 0;
+    }
+
+    .p-inv{
+        display: block;
+    }
+
+    .sub-table, .resp-txt{
+        display: none;
+    }
+
+    /* banner about us */
+
+    .bannerContent{
+        margin-bottom: 50px !important;
+    }
+
+    .inf-about-us h1{
+        text-align: center;
+        margin-bottom: 40px !important;
+    }
+}
+
+/* ESTILO SCROLL BAR */
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    display: none;
+}
+
+
+/* -------------------------------- */
+
+.inp-actions-playlist input{
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.8px);
+    -webkit-backdrop-filter: blur(12.8px);
+    border: 1px solid rgba(0, 0, 0, 0.31);
+    color: black;
+    border-radius: 0.5rem !important;
+}
+
+.dark-mode .inp-actions-playlist input{
+    border: 1px solid rgba(255, 255, 255, 0.31);
+    color: white;
+}
+
+.inp-actions-playlist input:focus{
+    color: black;
+    outline: none;
+    box-shadow: none;
+}
+
+.dark-mode .inp-actions-playlist input:focus{
+    color: white;
+}
+
+.inp-actions-playlist button{
+    background: linear-gradient(90deg, #3747f4, #1554f4, #005ef3, #0068f1, #0070ed, #0077e8, #007ee2, #0584dc);
+    border: none;
+    color: white;
+}
+
+.inp-actions-playlist input, .inp-actions-playlist button{
+    padding: 0.5em 1em;
+    border-radius:0.4em;
+}

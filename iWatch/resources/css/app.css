@@ -1,0 +1,14 @@
+a {
+    text-decoration: none !important;
+}
+
+/* ESTILOS NAV SUPERIOR */
+
+.navbar-nav .nav-link, .navbar-toggler-icon {
+    color: white;
+}
+
+.form-control {
+    color: transparent; /* Cambia el color del texto del campo de búsqueda */
+}
+
